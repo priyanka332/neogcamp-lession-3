@@ -27,10 +27,16 @@ hr {
 }
 
 /** links **/
+
 .link {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    padding-inline-start: 0px;
+}
+
+.link:hover {
+    color: #F87171;
 }
 
 .link-primary {
@@ -110,10 +116,17 @@ hr {
 
 .section {
     padding: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
-.section h1 {
+.section h1.link {
     text-align: center;
+    padding-inline-start: 0px;
 }
 
 .ow {
