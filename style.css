@@ -81,12 +81,15 @@ hr {
     text-align: right;
 }
 
-.navigation .link {
+.navigation .link:hover {
     color: white;
+    background: rgba(199, 97, 97, 0.7);
+    border-radius: 6px;
 }
 
 .navigation .link-active {
     font-weight: bold;
+    color: #10B981;
 }
 
 /** header **/
@@ -154,4 +157,10 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer .list-item-inline:hover {
+    font-weight: bold;
+    background: rgba(232, 235, 233, 0.7);
+    border-radius: 6px;
 }
