@@ -89,7 +89,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-    color: #10B981;
+    color: #21634d;
 }
 
 /** header **/
@@ -132,8 +132,20 @@ hr {
     padding-inline-start: 0px;
 }
 
+.section h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #f75959;
+}
+
 .ow {
     background-color: var(--off-white);
+}
+
+.ow h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #f75959;
 }
 
 /** footer **/
