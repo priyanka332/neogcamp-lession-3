@@ -15,6 +15,10 @@ hr {
     margin: 2rem 0rem;
 }
 
+ul li {
+    margin: 0.5rem;
+}
+
 /** Container **/
 
 .container {
@@ -129,6 +133,7 @@ hr {
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    margin-top: -1%;
 }
 
 .section h1.link {
@@ -144,6 +149,9 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .ow h1 {
@@ -179,4 +187,11 @@ hr {
     font-weight: bold;
     background: rgba(232, 235, 233, 0.7);
     border-radius: 6px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: -5%;
+    margin-bottom: 5%;
 }
